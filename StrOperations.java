@@ -18,7 +18,7 @@ public class StrOperations{
         {
             System.out.println("THE STRINGS ARE NOT EQUAL.");
         }
-        System.out.println(str1+str2);  //concating two string
+        System.out.println(str1.concat(str2));  //concating two string
         System.out.println("The char at 3th index of str1 is "+str1.charAt(3));  //EXTRACTION OF CHARACTER FROM STRING
     }
 }
