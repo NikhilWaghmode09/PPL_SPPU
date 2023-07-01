@@ -21,10 +21,10 @@ public class Complex{
         System.out.println( real + " + " + img + "i");
     }
     static public void main(String[] args){
-        Complex obj1 = new Complex();
+        Complex obj1 = new Complex();  //OBJECT 1 CREATED
         obj1.display();
-        Complex obj2 = new Complex(10,20);
-        Complex obj3 = new Complex(obj2);
+        Complex obj2 = new Complex(10,20);  //OBJECT 2 CREATED
+        Complex obj3 = new Complex(obj2);   //OBJECT 3 CREATED
         obj3.display();
     }
 }
